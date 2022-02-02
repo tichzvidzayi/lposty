@@ -4,13 +4,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Home</title>
+       
+    </head>
 
+<style> body {
+    background: lightblue url("img_tree.gif") no-repeat fixed center;
+  }>
+</style>
 
-        <h1> App</h1>
+    <body>
+      @yield('content')
+
+        <h1> App HTML</h1>
         <p> 111010100</p>
 
-    </head>
-    <body class="antialiased">
 
     </body>
 </html>
